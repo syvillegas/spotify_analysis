@@ -1,2 +1,5 @@
-# spotify_analysis
+# Played time and lyrics analysis with Spotify data
 Through the use of both Spotify and Genius API, we have extracted all the relevant data regarding the 2021 streaming histories of two users and the lyrics of the songs, respectively, and performed supervised and unsupervised studies. First, we have used LASSO and Bayesian regressions to predict the total amount of played time for each song and how each feature affects the output. Then, we have performed Structural Topic Modelling on the lyrics of the songs, in order to check the most common topics of our songs and check the popularity of the topics during the last 60 years.
+
+
+Regarding the data, we have obtained the streaming histories through the Spotify API (https://developer.spotify.com/) by requesting the personal user's data. Then, once we have the data, with the Genius API (https://docs.genius.com/) we have obtained the lyrics of our songs. This was the final project for the Statistical Modeling and Inference course belonging to the first term in the Barcelona School of Economics.
